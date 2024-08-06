@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-colour: #ff7272;
+            --sec-colour: #f35353;
+            --thy-colour: #ac5b85;
+            --body-colo: #48ffd1;
+            --def-font-size:70px;
+        }
+        body{
+            background-color: var(--body-colo);
+        }
+        .box-s{
+            width: 100px;
+            height: 100px;
+            background-color:var(--primary-colour);
+        }
+        .box-m{
+            width: 200px;
+            height: 100px;
+            background-color:var(--sec-colour);
+        }
+        .box-l{
+            width: 300px;
+            height: 200px;
+            background-color:var(--thy-colour);
+            font-size: var(--def-font-size);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box-s"></div>
+    <div class="box-m"></div>
+    <div class="box-l"></div>
+    <div class="box-s"></div>
+    <div class="box-l">Hello</div>
+    <div class="box-s"></div>
+    <div class="box-m"></div>
+    <div class="box-l"></div>
+</body>
+</html>
